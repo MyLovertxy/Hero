@@ -31,6 +31,8 @@ spring:
   mvc:
     servlet:
       load-on-startup: 1
+    favicon:
+      enabled: false
   thymeleaf:
     cache: false
     mode: HTML5
